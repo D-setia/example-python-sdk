@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "example_package_dsetia"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Divyanshu", email="dsetia@cs.iitr.ac.in" },
 ]
@@ -15,6 +15,9 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests"
 ]
 
 [project.urls]
